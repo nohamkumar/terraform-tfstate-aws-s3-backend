@@ -57,7 +57,7 @@ provider "aws" {
 }
 
 module "remote_tfstate_bucket" {
-source = "git@github.com:studiographene/tf-modules.git//tfstate-s3-backend"
+source = "git@github.com:nohamkumar/tfstate-s3-backend.git"
 namespace   = "sg"
 environment = "dev"
 }
